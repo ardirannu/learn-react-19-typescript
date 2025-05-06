@@ -1,5 +1,11 @@
 import './App.css'
-import OnSubmit from './materi/event-handler/OnSubmit';
+import IfElse from './materi/conditional-rendering/IfElse';
+// import StateOnForm from './materi/state/StateOnForm';
+// import StateArray from './materi/state/StateArray';
+// import StateObject from './materi/state/StateObject';
+// import StateNumber from './materi/state/StateNumber';
+// import StateString from './materi/state/StateString';
+// import OnSubmit from './materi/event-handler/OnSubmit';
 // import OnChange from './materi/event-handler/OnChange';
 // import OnClick from './materi/event-handler/OnClick';
 // import ListItem from './materi/component/ListItem';
@@ -32,7 +38,19 @@ function App() {
 
       {/* <OnChange/> */}
 
-      <OnSubmit/>
+      {/* <OnSubmit/> */}
+
+      {/* <StateString/> */}
+
+      {/* <StateNumber/> */}
+
+      {/* <StateObject/> */}
+
+      {/* <StateArray/> */}
+
+      {/* <StateOnForm/> */}
+
+      <IfElse isLoggedIn={true} />
     </>
 
   );
