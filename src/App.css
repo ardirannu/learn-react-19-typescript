@@ -44,3 +44,11 @@
 .mb-2 {
   margin-bottom: 20px;
 }
+
+.mr-1 {
+  margin-right: 10px;
+}
+
+.ml-1 {
+  margin-left: 10px;
+}

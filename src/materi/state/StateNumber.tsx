@@ -1,16 +1,20 @@
 import { useState } from "react";
 
 const StateNumber = () => {
-    const [ count, increaseCount ] = useState<number>(0);
+    const [ count, setCount ] = useState<number>(0);
 
-    const handleClick = () => {
-        increaseCount(count + 1);
+    const handleClickIncrease = () => {
+        setCount(count + 1);
+    }
+    const handleClickDecrease = () => {
+        setCount(count - 1);
     }
 
     return (
         <>
             <p>{count}</p>
-            <button onClick={handleClick}>Add number</button>
+            <button onClick={handleClickIncrease}>Add number</button>
+            <button onClick={handleClickDecrease}>Decrease number</button>
         </>
     )
 }

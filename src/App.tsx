@@ -1,5 +1,10 @@
 import './App.css'
-import IfElse from './materi/conditional-rendering/IfElse';
+import ComponentA from './materi/context/ComponentA';
+import { ThemeProvider } from './materi/context/ThemeContext';
+// import Counter from './materi/reducer/Counter';
+// import UsersList from './materi/work-with-api/UserList';
+// import IfElse from './materi/conditional-rendering/IfElse';
+// import Effect from './materi/effect-hooks/Effect';
 // import StateOnForm from './materi/state/StateOnForm';
 // import StateArray from './materi/state/StateArray';
 // import StateObject from './materi/state/StateObject';
@@ -33,7 +38,7 @@ function App() {
       </ChildrenProps> */}
 
       {/* <ListItem/> */}
-      
+
       {/* <OnClick/> */}
 
       {/* <OnChange/> */}
@@ -50,7 +55,18 @@ function App() {
 
       {/* <StateOnForm/> */}
 
-      <IfElse isLoggedIn={true} />
+      {/* <IfElse isLoggedIn={true} /> */}
+
+      {/* <Effect/> */}
+
+      {/* <UsersList/> */}
+
+      {/* <Counter/> */}
+
+      <ThemeProvider>
+        <ComponentA />
+
+      </ThemeProvider>
     </>
 
   );
