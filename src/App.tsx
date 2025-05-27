@@ -1,6 +1,8 @@
 import './App.css'
-import ComponentA from './materi/context/ComponentA';
-import { ThemeProvider } from './materi/context/ThemeContext';
+import PostList from './materi/custom-hooks/PostList';
+// import CounterComponent from './materi/custom-hooks/CounterComponent';
+// import ComponentA from './materi/context/ComponentA';
+// import { ThemeProvider } from './materi/context/ThemeContext';
 // import Counter from './materi/reducer/Counter';
 // import UsersList from './materi/work-with-api/UserList';
 // import IfElse from './materi/conditional-rendering/IfElse';
@@ -63,10 +65,14 @@ function App() {
 
       {/* <Counter/> */}
 
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <ComponentA />
+      </ThemeProvider> */}
 
-      </ThemeProvider>
+      {/* <CounterComponent/> */}
+
+        <PostList/>
+
     </>
 
   );
